@@ -1,35 +1,36 @@
 package observer.pattern.demo;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Subject implements ISubject {
-	List<IObserver> observerList = new ArrayList<IObserver>();
-	private int myValue;
+	List<Observer> observerList = new ArrayList<Observer>();
+	private int _flag;
 	
-	public int getMyValue() {
-		return myValue;
+	public int getFlag() {
+		return _flag;
 	}
 	
-	public void setMyValue(int myValue) {
-		this.myValue = myValue;
-		notifyObservers(myValue);
+	public void setFlag(int _flag) {
+		this._flag = _flag;
+		notifyObservers();
 	}
-	
+
 	@Override
-	public void register(IObserver o) {
+	public void register(Observer o) {
 		observerList.add(o);
 	}
 
 	@Override
-	public void unregister(IObserver o) {
+	public void unregister(Observer o) {
 		observerList.remove(o);
 	}
 
 	@Override
-	public void notifyObservers(int updatedValue) {
+	public void notifyObservers() {
 		for(int i = 0; i < observerList.size(); i++) {
-			observerList.get(i).update(updatedValue);
+			observerList.get(i).update();
 		}
 	}
+
 }

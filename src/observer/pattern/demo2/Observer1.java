@@ -1,4 +1,4 @@
-package observer.pattern.demo;
+package observer.pattern.demo2;
 
 public class Observer1 implements IObserver {
 	@Override
