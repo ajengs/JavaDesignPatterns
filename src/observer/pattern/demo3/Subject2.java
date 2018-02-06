@@ -12,6 +12,10 @@ public class Subject2 implements ISubject {
 		notifyObservers(myValue);
 	}
 
+	public int getMyValue() {
+		return myValue;
+	}
+	
 	@Override
 	public void register(IObserver o) {
 		observerList.add(o);

@@ -2,7 +2,7 @@
 
 # Creational Patterns
 Mainly deal with instantiation/ creation process.
-1. Singleton
+1. Singleton.
 Ensure a class only has one instance, and provide global point of access to it. 
 
 2. Abstract Factory
@@ -12,7 +12,7 @@ Ensure a class only has one instance, and provide global point of access to it.
 
 # Structural Patterns
 Focus on how objects and classes are associated or can be composed to make relatively large structures.
-1. Proxy
+1. Proxy.
 Provide a surrogate or placeholder for another object to control access to it. We want to use a class which can perform as an interface to something else.
 
 2. Flyweight
@@ -24,7 +24,7 @@ Provide a surrogate or placeholder for another object to control access to it. W
 
 # Behavioral Patterns
 Focus on algorithms and the assignment of critical responsibilities among objects. And also communication between them.
-1. Observer
+1. Observer.
 Define a one-to-many dependency between objects so that when one object changes state, all it dependents are notified and updated automatically. Also referred to as Publisher-Subscriber model.
 
 2. Template Method
