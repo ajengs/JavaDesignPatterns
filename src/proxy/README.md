@@ -1,4 +1,5 @@
 ##Proxy Pattern
+
 #Real–Life Example
 In a classroom, when one student is absent, during roll call, his best friend may try to mimic the student’s voice to try to keep his friend from being marked as absent.
 

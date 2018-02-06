@@ -18,7 +18,8 @@ Provide a surrogate or placeholder for another object to control access to it. W
 2. Flyweight
 3. Bridge
 4. Facade
-5. Decorator
+5. Decorator. Attach additional responsibilities to an object dynamically. Provide flexible alternative to subclassing for extending functionality. Applying Open/Closed principle.
+
 6. Adapter
 7. Composite
 
