@@ -28,7 +28,8 @@ Focus on algorithms and the assignment of critical responsibilities among object
 1. Observer.
 Define a one-to-many dependency between objects so that when one object changes state, all it dependents are notified and updated automatically. Also referred to as Publisher-Subscriber model.
 
-2. Template Method
+2. Template Method. Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. The template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
 3. Command
 4. Iterator
 5. State
