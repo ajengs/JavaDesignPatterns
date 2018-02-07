@@ -34,7 +34,8 @@ Define a one-to-many dependency between objects so that when one object changes 
 4. Iterator
 5. State
 6. Mediator
-7. Strategy
+7. Strategy. Define a family of algorithms, encapsulate each one, and make them interchangeable. The strategy pattern lets the algorithm vary independently from client to client. We can select the behavior of an algortihm at runtime.
+
 8. Chain of Responsibility
 9. Visitor
 10. Interpreter
